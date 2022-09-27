@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+$white-color: #FFFFFF;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button, input {
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $white-color;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.col {
+    padding: 15px;
+}
+
+.col-lg-4 {
+    width: 33.333333%;
+}
